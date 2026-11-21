@@ -21,7 +21,7 @@ function MenuList() {
   return (
     <div>
       <h2>Our Menu</h2>
-      <div>
+      <div className="menu-grid">
         {dishes.map((dish) => (
           <DishCard key={dish.id} dish={dish} getDIshes={getDIshes}/>
         ))}

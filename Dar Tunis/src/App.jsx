@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import DishCard from "./components/DishCard"
 import MenuList from "./components/MenuList"
 import Home from "./pages/Home"
+import Admin from "./components/Admin"
 
 import './index.css'
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/dishes" element={<MenuList/>} />
+      <Route path="/admin" element ={<Admin/>}/>
     </Routes>
     </>
   )
